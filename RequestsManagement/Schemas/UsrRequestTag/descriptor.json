@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "868bdd77-ce6b-4fd2-93fe-23f61eb044d2",
+    "Name": "UsrRequestTag",
+    "ModifiedOnUtc": "\/Date(1658084698000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Запрос"
+  }
+}

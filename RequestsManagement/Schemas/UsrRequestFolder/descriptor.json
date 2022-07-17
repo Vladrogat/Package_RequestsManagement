@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "7c975ad8-ae98-4385-8207-816891fab1f9",
+    "Name": "UsrRequestFolder",
+    "ModifiedOnUtc": "\/Date(1658084695000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Группа Запрос"
+  }
+}
