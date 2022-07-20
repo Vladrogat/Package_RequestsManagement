@@ -1,0 +1,73 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "DcmSchemaManager",
+      "UId": "36c1e1e5-7882-44c0-a9f1-6c49a84625d0",
+      "A2": "UsrCase_RequestStatus",
+      "A5": "53706320-a16c-43e3-9c1a-32663bef40bc",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "d343117a-6b71-87ff-c998-c2e52f81ad1a",
+      "B8": "7.18.5.1500",
+      "FJ1": [],
+      "IJ1": true,
+      "BK8": "51b280eb-d8a3-4932-81b9-ef61a0877aab",
+      "IJ10": true,
+      "EntitySchemaUId": "35f1312d-5e02-4acb-941c-8b8728c2110b",
+      "BK15": [],
+      "BK37": {
+        "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+        "UId": "cdd58be7-2dba-4a5e-869b-1ad5d6d7513a",
+        "A2": "NotificationCaption",
+        "A3": "36c1e1e5-7882-44c0-a9f1-6c49a84625d0",
+        "A4": "36c1e1e5-7882-44c0-a9f1-6c49a84625d0",
+        "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+        "L8": {
+          "GS1": 3,
+          "GS2": "[#[PropertyValue:Caption]#]"
+        }
+      },
+      "Stages": [
+        {
+          "BL1": "Terrasoft.Core.DcmProcess.DcmSchemaStage",
+          "UId": "d660ff97-d9c8-435a-905c-a1c6bc0de8d5",
+          "A2": "Stage1",
+          "A3": "36c1e1e5-7882-44c0-a9f1-6c49a84625d0",
+          "A4": "36c1e1e5-7882-44c0-a9f1-6c49a84625d0",
+          "A5": "d343117a-6b71-87ff-c998-c2e52f81ad1a",
+          "Color": "#64b8df",
+          "StageRecordId": "3d7d7b39-22a1-41f7-b025-293d88f7f434",
+          "Elements": [],
+          "UsePermissions": true
+        },
+        {
+          "BL1": "Terrasoft.Core.DcmProcess.DcmSchemaStage",
+          "UId": "abcbcd39-ffd8-4eb6-b3d9-868db1c15a68",
+          "A2": "Stage2",
+          "A3": "36c1e1e5-7882-44c0-a9f1-6c49a84625d0",
+          "A4": "36c1e1e5-7882-44c0-a9f1-6c49a84625d0",
+          "A5": "d343117a-6b71-87ff-c998-c2e52f81ad1a",
+          "Color": "#f8d162",
+          "StageRecordId": "aa782b50-0930-4d91-af81-f4c5f6bff41c",
+          "Elements": []
+        },
+        {
+          "BL1": "Terrasoft.Core.DcmProcess.DcmSchemaStage",
+          "UId": "ff1546e3-ef49-494c-a647-231fadb4dd74",
+          "A2": "Stage3",
+          "A3": "36c1e1e5-7882-44c0-a9f1-6c49a84625d0",
+          "A4": "36c1e1e5-7882-44c0-a9f1-6c49a84625d0",
+          "A5": "d343117a-6b71-87ff-c998-c2e52f81ad1a",
+          "Color": "#589928",
+          "StageRecordId": "6c69c46f-1e96-47c5-afc7-a308f883ad8b",
+          "Elements": []
+        }
+      ],
+      "Transitions": [],
+      "StageConnections": {},
+      "StageColumnUId": "5f5db990-4bff-4755-895f-d4734314cd77",
+      "SystemElements": []
+    }
+  }
+}

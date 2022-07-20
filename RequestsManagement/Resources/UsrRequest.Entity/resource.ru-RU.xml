@@ -3,11 +3,26 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Запрос" />
+			<Item Name="Columns.UsrActive.Caption" Value="Активно" />
+			<Item Name="Columns.UsrCount.Caption" Value="Количество" />
+			<Item Name="Columns.UsrDate.Caption" Value="Дата" />
 			<Item Name="Columns.UsrName.Caption" Value="Название" />
 			<Item Name="Columns.UsrNotes.Caption" Value="Заметки" />
-			<Item Name="Columns.UsrStatuses.Caption" Value="Статусы" />
+			<Item Name="Columns.UsrNumber.Caption" Value="Номер" />
+			<Item Name="Columns.UsrStatuses.Caption" Value="Статус" />
 			<Item Name="Columns.UsrUser.Caption" Value="Конечный пользователь" />
-			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+			<Item Name="EventsProcessSchema.BaseElements.ConditionalSequenceFlow1_727ca4cd922040c5a104561627faf49a.Caption" Value="Пустой номер" />
+			<Item Name="EventsProcessSchema.BaseElements.EventSubProcess_GenerationNumber.Caption" Value="Генерация номера запроса" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptTask1.Caption" Value="Получение схемы генерации номера" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptTask2_87389515dcc54235aa69ab421d418790.Caption" Value="Сохранение номера" />
+			<Item Name="EventsProcessSchema.BaseElements.StartMessage1_4034945396a7443eb01a4d457cc99225.Caption" Value="Перед добавлением записи" />
+			<Item Name="EventsProcessSchema.BaseElements.TerminateEvent1_03502363e847490791cc871f08c7e02f.Caption" Value="Добавление записи" />
+			<Item Name="EventsProcessSchema.BaseElements.UserTask1_Generate.Caption" Value="Сгенерировать номер" />
+			<Item Name="EventsProcessSchema.BaseElements.UserTask1_Generate.Parameters.EntitySchema.Caption" Value="EntitySchema" />
+			<Item Name="EventsProcessSchema.BaseElements.UserTask1_Generate.Parameters.ResultCode.Caption" Value="ResultCode" />
+			<Item Name="EventsProcessSchema.Caption" Value="Запрос" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_c0d2d5b4771b482782d99daa87545efb.Caption" Value="LaneSet 1" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_c0d2d5b4771b482782d99daa87545efb.Lanes.Lane_07ceb0addee14412bd094a5f1b3ab490.Caption" Value="Lane 1" />
 		</Items>
 	</Group>
 </Resources>

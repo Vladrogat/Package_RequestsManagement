@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "36c1e1e5-7882-44c0-a9f1-6c49a84625d0",
+    "Name": "UsrCase_RequestStatus",
+    "ModifiedOnUtc": "\/Date(1658229208000)\/",
+    "ManagerName": "DcmSchemaManager",
+    "Caption": "Статус запроса"
+  }
+}

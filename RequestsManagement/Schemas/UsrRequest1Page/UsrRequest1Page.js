@@ -8,18 +8,53 @@ define("UsrRequest1Page", [], function() {
 				"schemaName": "FileDetailV2",
 				"entitySchemaName": "UsrRequestFile",
 				"filter": {
-					"masterColumn": "Id",
-					"detailColumn": "UsrRequest"
+					"detailColumn": "UsrRequest",
+					"masterColumn": "Id"
 				}
 			}
 		}/**SCHEMA_DETAILS*/,
-		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{
+			"UsrUser": {
+				"6a586fee-a174-49b0-aa62-5720ca14d523": {
+					"uId": "6a586fee-a174-49b0-aa62-5720ca14d523",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 1,
+					"baseAttributePatch": "Account",
+					"comparisonType": 3,
+					"autoClean": false,
+					"autocomplete": false,
+					"type": 3,
+					"value": "CurrentUserAccount",
+					"dataValueType": 10
+				}
+			},
+			"UsrStatuses": {
+				"1b033714-1148-4004-a4f1-59e7c8d153ad": {
+					"uId": "1b033714-1148-4004-a4f1-59e7c8d153ad",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 1,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrNumber"
+							}
+						}
+					]
+				}
+			}
+		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
-				"name": "UsrName1c380fb4-da95-4776-927c-c4f402c25bc6",
+				"name": "STRING69cadec3-8e02-4359-bddc-4a184258d511",
 				"values": {
 					"layout": {
 						"colSpan": 24,
@@ -28,12 +63,30 @@ define("UsrRequest1Page", [], function() {
 						"row": 0,
 						"layoutName": "ProfileContainer"
 					},
+					"bindTo": "UsrNumber",
+					"enabled": false
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "UsrName1c380fb4-da95-4776-927c-c4f402c25bc6",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 1,
+						"layoutName": "ProfileContainer"
+					},
 					"bindTo": "UsrName",
 					"enabled": true
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -43,7 +96,7 @@ define("UsrRequest1Page", [], function() {
 						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 1,
+						"row": 2,
 						"layoutName": "ProfileContainer"
 					},
 					"bindTo": "UsrUser",
@@ -52,7 +105,78 @@ define("UsrRequest1Page", [], function() {
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
-				"index": 1
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "BOOLEAN26cdcced-069c-4d4d-a14b-17c447b4255b",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 3,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrActive",
+					"enabled": true
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "INTEGER8ea12315-b6cb-45e6-af77-8dfc898d020d",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrCount",
+					"enabled": true
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "DATETIME8b1d722d-9419-40e3-b272-4cded17acae4",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 5,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrDate",
+					"enabled": true
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "UsrNotes0b2cc878-bda9-4ded-a855-9faba8c65b7f",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 6,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrNotes"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 6
 			},
 			{
 				"operation": "insert",
